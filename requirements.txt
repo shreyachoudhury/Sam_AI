@@ -1,0 +1,6 @@
+streamlit
+yagmail
+torch
+transformers
+pillow
+opencv-python
