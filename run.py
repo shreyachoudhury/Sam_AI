@@ -1,5 +1,3 @@
-pip install yagmail
-pip install streamlit
 import os
 from datetime import datetime
 import yagmail
