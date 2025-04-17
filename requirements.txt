@@ -5,3 +5,4 @@ torch
 pillow
 transformers
 numpy
+opencv-python-headless
