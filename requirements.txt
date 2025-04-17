@@ -1,6 +1,7 @@
 streamlit
 yagmail
-torch
-transformers
-pillow
 opencv-python
+torch
+pillow
+transformers
+numpy
