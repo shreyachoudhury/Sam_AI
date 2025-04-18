@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "weapon-detection-streamlit"
+version = "0.1.0"
+description = "Weapon detection dashboard using vision-language models (BLIP) and Streamlit"
+authors = ["Sarmi <you@continental.com>"]
+readme = "README.md"
+packages = [{ include = "weapon_detection_streamlit" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.44.1"
+opencv-python = "^4.9.0"
+pillow = "^10.2.0"
+transformers = "^4.39.3"
+torch = "*"  # We'll override this manually
+torchvision = "*"
+torchaudio = "*"
+ultralytics = "^8.3.105"
+opencv-python-headless = "^4.11.0.86"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
